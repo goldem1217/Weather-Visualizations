@@ -25,10 +25,10 @@
     <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
         <div class="dropdown-menu">
-            <a class="dropdown-item" href="https://goldem1217.github.io/web-design-challenge/WebVisualizations/viz1.html">Temperature</a>
-            <a class="dropdown-item" href="https://goldem1217.github.io/web-design-challenge/WebVisualizations/viz2.html">Wind Speed</a>
-            <a class="dropdown-item" href="https://goldem1217.github.io/web-design-challenge/WebVisualizations/viz3.html">Cloudiness</a>
-            <a class="dropdown-item" href="https://goldem1217.github.io/web-design-challenge/WebVisualizations/viz4.html">Humidity</a>
+            <a class="dropdown-item" href="https://goldem1217.github.io/web-design-challenge/WebVisualizations/temp.html">Temperature</a>
+            <a class="dropdown-item" href="https://goldem1217.github.io/web-design-challenge/WebVisualizations/wind.html">Wind Speed</a>
+            <a class="dropdown-item" href="https://goldem1217.github.io/web-design-challenge/WebVisualizations/cloud.html">Cloudiness</a>
+            <a class="dropdown-item" href="https://goldem1217.github.io/web-design-challenge/WebVisualizations/humid.html">Humidity</a>
         </div>
     </li>
     <li class="nav-item">
@@ -43,7 +43,7 @@
 <div class = 'container-fluid'>
 <div class = 'row'>
 
-    <div class = 'col-6 text-right'>
+    <div class = 'col-sm-12 col-md-6'>
         <div class = 'row'>
                 <div class="jumbotron jumbotron-fluid">
                     <div class="container">
@@ -52,11 +52,11 @@
                     </div>
                 </div>
         </div>
-        <div class = 'row text-left'>
-            <ul>
+        <div class = 'row'>
+            <ul class = 'list-unstyled'>
                 <li>Data was collected using the <a target="_blank" href="https://openweathermap.org/api">OpenWeather Weather API</a>.
                 </li><br>
-                <li>Random coordinate pairs were generated using Numpy.
+                <li>Random coordinate pairs were generated using <a target="_blank" href="https://numpy.org/">Numpy</a>.
                 </li><br>
                 <li>Citipy was used to find the closest city to each coordinate pair.
                 </li><br>
@@ -68,21 +68,21 @@
         </div>   
     </div>
 
-    <div class = 'col-6 bg-primary'>
+    <div class = 'col-sm-12 col-md-6 bg-primary'>
             <br>
             <div class = 'row text-center justify-content-center'>
                 <div class="card mx-auto" style="width: 16rem;">
                     <img src="resources/Temperature.png" class="card-img-top" alt="Temperature">
                     <div class="card-body">
                       <h5 class="card-title">Latitude Vs. Max Temperature</h5>
-                      <a href="#" class="btn btn-primary">See More</a>
+                      <a href="https://goldem1217.github.io/web-design-challenge/WebVisualizations/temp.html" class="btn btn-primary">See More</a>
                     </div>
                 </div>
                 <div class="card mx-auto" style="width: 16rem;">
                     <img src="resources/Wind_Speed.png" class="card-img-top" alt="Wind Speed">
                     <div class="card-body">
                       <h5 class="card-title">Latitude Vs. Wind Speed</h5>
-                      <a href="#" class="btn btn-primary">See More</a>
+                      <a href="https://goldem1217.github.io/web-design-challenge/WebVisualizations/wind.html" class="btn btn-primary">See More</a>
                     </div>
                 </div>
             </div>
@@ -92,14 +92,14 @@
                     <img src="resources/Cloudiness.png" class="card-img-top" alt="Cloudiness">
                     <div class="card-body">
                         <h5 class="card-title">Latitude Vs. Cloudiness</h5>
-                        <a href="#" class="btn btn-primary">See More</a>
+                        <a href="https://goldem1217.github.io/web-design-challenge/WebVisualizations/cloud.html" class="btn btn-primary">See More</a>
                     </div>
                 </div>
                     <div class="card mx-auto" style="width: 16rem;">
                         <img src="resources/Humidity.png" class="card-img-top" alt="Humidity">
                         <div class="card-body">
                             <h5 class="card-title">Latitude Vs. Humidity</h5>
-                            <a href="#" class="btn btn-primary">See More</a>
+                            <a href="https://goldem1217.github.io/web-design-challenge/WebVisualizations/humid.html" class="btn btn-primary">See More</a>
                     </div>
                 </div>
             </div>
@@ -109,7 +109,7 @@
 <br>
 <div class = 'row'></div><hr>
     <div class = 'col-12 text-right'>
-        <p class= "text-faded">Emily Goldner 2019</p>
+        <p class= "text-muted"><small>Emily Goldner 2019</small></p>
     </div>
 </div>
 

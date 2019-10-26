@@ -3,7 +3,7 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>Comparisons</title>
+  <title>Humidity</title>
   
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -41,28 +41,33 @@
 </div>
 <br><br><br>
 <div class = 'container-fluid'>
-    <div class = 'row text-center'>
-        <div class = 'col-xs-12 col-md-6'>
-        <img src="resources/Temperature.png" alt="Temperature">
+    <div class = 'row'>
+        <div class = 'col-xs-12 col-md-5 text-right'>
+            <img src="resources/Humidity.png" alt="Humidity" style="max-width:100%;">
         </div>
-        <div class = 'col-xs-12 col-md-6'>
-        <img src="resources/Wind_Speed.png" alt="Wind_Speed">
-        </div>  
-    </div>
-    <br>
-    <div class = 'row text-center'>
-        <div class = 'col-xs-12 col-md-6'>
-        <img src="resources/Cloudiness.png" alt="Cloudiness">
-        </div>
-        <div class = 'col-xs-12 col-md-6'>
-        <img src="resources/Humidity.png" alt="Humidity">
+        <div class = 'col-xs-12 col-md-7 text-left'>
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h6 class="display-4">Humidity vs. Latitude</h6>
+                    <p class="lead">
+                        <br>
+                        This plot shows the humidity percentage at each location.
+                        <br><br>
+                        Far more cities show humidity levels above 60% and very few show 
+                        humidity levels below 40%.  
+                        This is likely due to human settlements being more likely to be 
+                        situated on coastlines or near bodies of water, 
+                        and less likely to be situated in deserts.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 <br>
 <div class = 'row'></div><hr>
     <div class = 'col-12 text-right'>
-        <p class= "text-muted"><small>Emily Goldner 2019</small></p>    
+        <p class= "text-muted"><small>Emily Goldner 2019</small></p>
     </div>
 </div>
 
