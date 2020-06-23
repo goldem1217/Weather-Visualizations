@@ -1,2 +1,2 @@
 # web-design-challenge
-Homework 11
+Created a website using HTML & Bootstrap to display data from a previous project.
